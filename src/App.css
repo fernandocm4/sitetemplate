@@ -2,57 +2,6 @@
   text-align: center;
 }
 
-.UL-menu{
-  position: relative;
-  margin: auto;
-  top: -290px;
-}
-.App-logo {
-  width: 108px;
-  height: 40px;
-  pointer-events: none;
-  position: relative;
-  margin: auto;
-  top: -250px;
-  right: 500px;
-}
-
-.Menu-link{
-  text-decoration:none;
-  color: #878787;
-  font-size: 16px;
-  padding: 10px;
-  font-family: 'Kanit', sans-serif;
-  font-weight:50;
-}
-
-.Menu-link2{
-  text-decoration:none;
-  color: #ffffff;
-  font-size: 16px;
-  position: relative;
-  left: 300px;
-  padding-left: 50px;
-  padding-right: 35px;
-  font-family: 'Kanit', sans-serif;
-}
-
-.Button-link{
-  width: 91px;
-  height: 43px;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  font-family: 'Kanit', sans-serif;
-  position: relative;
-  left: 300px;
-}
-.Button-link:hover{
-  background-color: #141414;
-  color: white;
-  cursor: pointer;
-}
-
 .App {
   background-color: #141414;
   min-height: 100vh;
@@ -75,4 +24,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.App-img{
+
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.Body-container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.img{
+  width: 108px;
+  height: 40;
+}
+
+.Menu{
+  margin: 0;
+}
+
+.Menu a{
+  text-decoration: none;
+  color: #878787;
+  padding-left: 50px;
+  font-size: 16px;
+  font-family: 'Monserrat' sans-serif;
+  align-items: center;
+}
+
+.Menu button{
+  position: relative;
+  left: 50px;
+}
+
+.Login{
+  position: relative;
+  left: 50px;
+  top: 4px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+.Joinnow{
+  position: relative;
+  left: 70px;
+  top: 4px;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  border-radius: 5px;
 }
