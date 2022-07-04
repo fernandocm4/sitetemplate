@@ -41,6 +41,8 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  position: relative;
+  left: -170px;
 }
 
 .img{
@@ -50,6 +52,8 @@
 
 .Menu{
   margin: 0;
+  padding-right: 250px;
+  padding-left: 150px;
 }
 
 .Menu a{
@@ -68,19 +72,27 @@
 
 .Login{
   position: relative;
-  left: 50px;
   top: 4px;
   background-color: transparent;
   border: none;
   color: #ffffff;
+  width: 70px;
+  height: 43px;
+  font-size: 16px;
+  font-family: 'Monserrat', sans-serif;
+  position: relative;
+  left: -20px;
 }
 
 .Joinnow{
   position: relative;
-  left: 70px;
   top: 4px;
   background-color: #ffffff;
   border: none;
   color: black;
   border-radius: 5px;
+  width: 91px;
+  height: 43px;
+  font-size: 16px;
+  font-family: 'Monserrat', sans-serif;
 }
